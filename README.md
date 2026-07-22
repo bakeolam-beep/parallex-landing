@@ -35,7 +35,7 @@ Parallax Landing Page demonstrates how immersive product experiences can be crea
 
 ## Demo
 
-🌐 **Live Demo:** _Paste your Vercel deployment URL here_
+🌐 **Live Demo:** https://parallax-landing-eta.vercel.app/
 
 ### Animated Preview
 
