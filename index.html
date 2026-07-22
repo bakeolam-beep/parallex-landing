@@ -1,78 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Stellar | Parallax Landing</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌟</text></svg>" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallax Landing Page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌟</text></svg>" />
+
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <!-- Hero section -->
-  <section class="hero" id="hero">
+
+  <header>
+
+    <nav class="navbar">
+
+      <div class="logo">
+        Nova
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#cta">Contact</a></li>
+      </ul>
+
+    </nav>
+
+  </header>
+
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <div class="overlay"></div>
+
     <div class="hero-content">
-      <h1>Explore the Universe</h1>
-      <p>Discover breathtaking worlds beyond the stars. Your journey starts here.</p>
-      <a href="#features" class="btn">Get Started</a>
-    </div>
-  </section>
 
-  <!-- Feature section with parallax background -->
-  <section class="parallax-section" id="features">
-    <div class="overlay">
-      <h2>Why Choose Stellar?</h2>
-    </div>
-  </section>
+      <span class="tag">
+        NEXT GENERATION PLATFORM
+      </span>
 
-  <!-- Feature cards -->
-  <section class="content-section">
-    <div class="container">
-      <div class="feature-grid">
-        <div class="feature-card">
-          <span class="icon">🚀</span>
-          <h3>Light Speed</h3>
-          <p>Experience blazing fast performance that leaves competitors in the dust.</p>
-        </div>
-        <div class="feature-card">
-          <span class="icon">🔒</span>
-          <h3>Secure</h3>
-          <p>Your data is protected by quantum‑grade encryption, always.</p>
-        </div>
-        <div class="feature-card">
-          <span class="icon">🎨</span>
-          <h3>Beautiful</h3>
-          <p>Stunning interfaces designed for humans, not robots.</p>
-        </div>
+      <h1>
+        Build Experiences
+        That Feel Alive.
+      </h1>
+
+      <p>
+        Beautiful interfaces, immersive scrolling,
+        modern layouts and premium interactions
+        built entirely with HTML and CSS.
+      </p>
+
+      <div class="hero-buttons">
+
+        <a href="#features" class="btn primary">
+          Explore
+        </a>
+
+        <a href="#cta" class="btn secondary">
+          Get Started
+        </a>
+
       </div>
+
     </div>
+
   </section>
 
-  <!-- Second parallax section -->
-  <section class="parallax-section parallax-2">
-    <div class="overlay">
-      <h2>Built for the Future</h2>
+
+  <!-- FEATURES -->
+
+  <section class="features" id="features">
+
+    <div class="section-title">
+
+      <h2>Everything You Need</h2>
+
+      <p>
+        Crafted for premium digital products.
+      </p>
+
     </div>
+
+    <div class="cards">
+
+      <article class="card">
+
+        <h3>Parallax Sections</h3>
+
+        <p>
+          Large immersive backgrounds create depth
+          while content remains readable.
+        </p>
+
+      </article>
+
+      <article class="card">
+
+        <h3>Responsive Layout</h3>
+
+        <p>
+          Flexible CSS Grid adapts beautifully from
+          desktop down to mobile devices.
+        </p>
+
+      </article>
+
+      <article class="card">
+
+        <h3>Performance</h3>
+
+        <p>
+          No frameworks.
+          No JavaScript.
+          Lightweight and elegant.
+        </p>
+
+      </article>
+
+    </div>
+
   </section>
 
-  <!-- Call to action -->
-  <section class="cta-section">
-    <div class="container">
-      <h2>Ready to launch?</h2>
-      <p>Join thousands of explorers today.</p>
-      <a href="#" class="btn secondary">Sign Up Free</a>
+
+  <!-- PARALLAX -->
+
+  <section class="parallax one">
+
+    <div class="parallax-content">
+
+      <h2>
+        Immersive Storytelling
+      </h2>
+
     </div>
+
   </section>
 
-  <!-- Footer -->
+
+  <!-- CONTENT -->
+
+  <section class="content" id="experience">
+
+    <div class="text">
+
+      <h2>
+        Design That Captures Attention
+      </h2>
+
+      <p>
+        Full-screen imagery combined with layered
+        typography creates a premium experience often
+        found on SaaS, AI and technology company websites.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- SECOND PARALLAX -->
+
+  <section class="parallax two">
+
+    <div class="parallax-content">
+
+      <h2>
+        Scroll. Discover. Inspire.
+      </h2>
+
+    </div>
+
+  </section>
+
+
+  <section class="pricing" id="pricing">
+
+    <div class="section-title">
+
+      <h2>
+        Premium Experience
+      </h2>
+
+      <p>
+        Modern interfaces users love.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <section class="cta" id="cta">
+
+    <h2>
+      Ready To Launch?
+    </h2>
+
+    <p>
+      Build stunning landing pages that leave
+      lasting impressions.
+    </p>
+
+    <a href="#" class="btn primary">
+      Start Building
+    </a>
+
+  </section>
+
+
   <footer>
-    <div class="container">
-      <p>&copy; 2026 Stellar. All rights reserved.</p>
-      <div class="social">
-        <a href="#">Twitter</a>
-        <a href="#">GitHub</a>
-        <a href="#">LinkedIn</a>
-      </div>
-    </div>
+
+    © 2026 Nova. Crafted with HTML & CSS.
+
   </footer>
+
 </body>
+
 </html>
